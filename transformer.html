@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer</title>
+    <style>
+        .box{
+            color: rgb(51, 153, 83);
+            height: 60px;
+            width: 100px;
+            
+            
+        }
+        .outer{
+            background-color: rgb(220, 140, 36);
+            border: 1px solid rgb(44, 43, 44);
+
+        }
+        .inner{
+            background-color: aquamarine;
+            color: rgb(235, 38, 38);
+    
+            transform: translateX(100px);
+            transform: rotate(30deg) scale(.5);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Transformer</h1>
+    <div class="box outer">
+        <div class="box inner">box_1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box_2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box_3</div>
+    </div>
+</body>
+</html>

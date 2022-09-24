@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    
+    <style>
+        .box{
+            color: white;
+            border: rgb(18, 17, 18) solid 5px;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            background-color: brown;
+            transition: width 2s;
+            margin-left: 10px;
+            float: left;
+            overflow: hidden;
+        }
+
+        .box:hover{
+            background-color: aquamarine;
+            color: black;
+            font-size: 50px;
+            width: 500px;
+        }
+    </style>
+
+</head>
+<body>
+    <div  class="box">
+        <p>Transition</p>
+    </div>
+    <div class="box">
+        <p>Roy</p>
+    </div>
+    
+</body>
+</html>
